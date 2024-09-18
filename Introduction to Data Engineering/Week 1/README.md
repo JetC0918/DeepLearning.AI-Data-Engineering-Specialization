@@ -15,7 +15,19 @@ The course covers foundational principles of data engineering, including the sta
 
 ### Outlines
 1. [Introduction to Data Engineering](#introduction-to-data-engineering)
+  - 1.1 [Data Engineering Defined](#data-engineering-defined)  
+  - 1.2 [The Data Engineer Among Other Stakeholders](#the-data-engineer-among-other-stakeholders)
+  - 1.3 [System Requirements](#system-requirements)
+  - 1.4 [Requirements Gathering Process](#requirements-gathering-process)
+  - 1.5 [Translate Stakeholder Needs into Specific Requirements](#translate-stakeholder-needs-into-specific-requirements)
+  - 1.6 [Thinking Like a Data Engineer](#thinking-like-a-data-engineer)
 2. [Data Engineering on the Cloud](#data-engineering-on-the-cloud)
+  - 2.1 [Introduction to AWS Cloud](#introduction-to-aws-cloud)  
+  - 2.2 [AWS Regions and Availability Zones](#aws-regions-and-availability-zones)
+  - 2.3 [Intro to AWS Core Services](#intro-to-aws-core-services)
+  - 2.4 [Amazon Elastic Compute Cloud (EC2) Overview](#amazon-elastic-compute-cloud-ec2-overview)
+  - 2.5 [Networking - Virtual Private Cloud (VPC) & Subnets](#networking---virtual-private-cloud-vpc--subnets)
+  - 2.6 [Security - AWS Shared Responsibility Model](#security---aws-shared-responsibility-model)
 
 ## Introduction to Data Engineering
 
@@ -184,7 +196,7 @@ The course covers foundational principles of data engineering, including the sta
   - Confirm your understanding of requirements.
   - Identify and engage with additional stakeholders as needed. 
 
-### Framework for Thinking Like a Data Engineer
+### Thinking Like a Data Engineer
 
 #### 1. **Identify Business Goals and Stakeholder Needs**
    - **Business Goals:**
