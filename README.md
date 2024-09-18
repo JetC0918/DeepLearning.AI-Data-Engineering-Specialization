@@ -1,4 +1,4 @@
-# Starting the DeepLearning.AI Data Engineering Professional Certificate
+# DeepLearning.AI Data Engineering Professional Certificate
 
 ### Introduction
 I'm about to begin the [**DeepLearning.AI Data Engineering Professional Certificate**](https://www.coursera.org/professional-certificates/data-engineering) course. This program is designed to give me a solid foundation in data engineering and help me build skills to deliver real business value. Here’s what I’m aiming to get out of it:
