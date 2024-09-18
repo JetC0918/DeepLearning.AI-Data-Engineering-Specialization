@@ -20,7 +20,7 @@ This course consists of 4 weeks of content and covers these main learning object
 
 ### **Course Structure**:
 
-- Week 1: Overview of data engineering, life cycle, and understanding how to think like a data engineer   
+- [Week 1](./Week_1): Overview of data engineering, life cycle, and understanding how to think like a data engineer   
 - Week 2: Deep dive into the stages of the data engineering life cycle, with hands-on AWS lab work at the end 
 - Week 3: Focus on principles of good data architecture 
 - Week 4: Design and build data architecture based on stakeholder needs 
