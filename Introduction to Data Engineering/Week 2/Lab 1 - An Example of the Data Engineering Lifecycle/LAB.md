@@ -57,7 +57,7 @@ use classicmodels;
 show tables;
 ``` 
 Output examples:
-![show_tables](./images/show_tables.png)
+![show_tables](./images/show_tables.PNG)
 
 7. Exit
 ``` bash
