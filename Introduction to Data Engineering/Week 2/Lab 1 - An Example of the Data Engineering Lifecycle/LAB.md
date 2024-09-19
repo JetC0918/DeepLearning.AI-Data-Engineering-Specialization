@@ -117,7 +117,7 @@ cd infrastructure/terraform
 ``` bash
 terraform init
 ```
-![terraform_init](./images/terraform_init.png)
+![terraform_init](./images/terraform_init.PNG)
 
 7. **Generate Terraform Plan**:
    - Preview changes to infrastructure with the command:
@@ -139,13 +139,13 @@ terraform init
      terraform apply
      ```
    - Review the plan and respond with `yes` to proceed:
-     ![terraform_plan](images/terraform_plan.png)
+     ![terraform_plan](images/terraform_plan.PNG)
 
 10. **Monitor Deployment Progress**:
    - Check the terminal for deployment progress.
    - Terraform will create resources in your AWS account.
    - Upon completion, you will receive a confirmation similar to:
-     ![stack_deployed](images/stack_deployed.png)
+     ![stack_deployed](images/stack_deployed.PNG)
 
 11. **Verify AWS Glue Job Creation**:
    - Return to the AWS Glue console and check *ETL jobs*.
