@@ -1,17 +1,26 @@
 ## Data Engineering Lifecycle and Key Concepts
 
-Week 1 provides a high-level overview of the data engineering lifecycle, the key undercurrents in the field, and how data engineers contribute to adding business value within organizations. The focus is on developing a mental framework for thinking like a data engineer, starting from gathering stakeholder needs and translating them into actionable system requirements. 
+Week 1 provides a high-level overview of the data engineering lifecycle, 
+the key undercurrents in the field, and how data engineers contribute 
+to adding business value within organizations. 
+The focus is on developing a mental framework for thinking like a data engineer, 
+starting from gathering stakeholder needs and translating them into actionable system requirements. 
 
 ### Overview
 
-The course covers foundational principles of data engineering, including the stages of the data engineering lifecycle and how to apply these in real-world scenarios. It also provides insights into working with cloud infrastructure, particularly using AWS, for building scalable data pipelines.
+The course covers foundational principles of data engineering, 
+including the stages of the data engineering lifecycle 
+and how to apply these in real-world scenarios. 
+It also provides insights into working with cloud infrastructure, 
+particularly using AWS, for building scalable data pipelines.
 
 ### Learning Objectives
 
 - Identify key upstream and downstream collaborators and stakeholders for data engineers
 - Identify the stages of the data engineering lifecycle and key undercurrents
 - Articulate a mental framework for building data engineering solutions
-- Identify some of the necessary considerations for requirements gathering at the start of a new project / role as data engineer 
+- Identify some of the necessary considerations for requirements 
+  gathering at the start of a new project / role as data engineer 
 
 ### Outlines
 1. [Introduction to Data Engineering](#introduction-to-data-engineering)
@@ -31,42 +40,66 @@ The course covers foundational principles of data engineering, including the sta
 
 ## Introduction to Data Engineering
 
-* **Growing Demand for Data Engineers**: As industries become increasingly digital, the demand for data engineers to handle large volumes of data and build efficient data pipelines is skyrocketing
+* **Growing Demand for Data Engineers**: As industries become increasingly digital, 
+    the demand for data engineers to handle large volumes of data 
+    and build efficient data pipelines is skyrocketing
 
-* **Importance of Data Engineering for Data Science**: Data engineers provide the infrastructure, data quality, and support needed for data scientists to be successful in their roles. Fast access to data enables rapid development and decision-making
+* **Importance of Data Engineering for Data Science**: Data engineers provide the infrastructure, 
+    data quality, and support needed for data scientists to be successful in their roles. 
+    Fast access to data enables rapid development and decision-making
 
-* **Data-Centric AI**: The concept emphasizes the importance of systematically engineering data to build successful AI systems. With the rise of AI, focusing on the quality and structure of data is more critical than ever
+* **Data-Centric AI**: The concept emphasizes the importance of systematically engineering data 
+    to build successful AI systems. With the rise of AI, focusing on the quality 
+    and structure of data is more critical than ever
 
 ### Course 1 Overview
 
-- **Common Data Science Pitfalls**: Companies often hire data scientists without realizing they lack the necessary data infrastructure. This leads to inefficiencies and the need to hire data engineers, which is a growing trend in industry
+- **Common Data Science Pitfalls**: Companies often hire data scientists without realizing 
+    they lack the necessary data infrastructure. This leads to inefficiencies and the need to 
+    hire data engineers, which is a growing trend in industry
 
-- **Core Skills of Data Engineering**: The foundational skills for building data systems apply across various tasks such as data science, machine learning, and analytics. These skills form the essence of data engineering
+- **Core Skills of Data Engineering**: The foundational skills for building data systems apply 
+    across various tasks such as data science, machine learning, and analytics. 
+    These skills form the essence of data engineering
 
-- **Big Picture Focus**: Before jumping into implementation, it’s important to understand how your data systems will deliver value to the organization. The first course emphasizes forming a mental framework for successful data engineering
+- **Big Picture Focus**: Before jumping into implementation, it’s important to understand how 
+    your data systems will deliver value to the organization. 
+    The first course emphasizes forming a mental framework for successful data engineering
 
 ### Data Engineering Defined
 
-- **Evolution of Data Engineering**: Initially, software engineers treated data as a byproduct (exhaust) of software applications. Over time, data became recognized for its intrinsic value, leading to the rise of data engineering as a key function for building systems to ingest, store, transform, and serve data.
+- **Evolution of Data Engineering**: Initially, software engineers treated data as a byproduct (exhaust) 
+    of software applications. Over time, data became recognized for its intrinsic value, leading to the 
+    rise of data engineering as a key function for building systems to ingest, store, transform, and serve data.
 
-- **Definition of Data Engineering**: According to [Fundamentals of Data Engineering](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/), data engineering involves developing, implementing, and maintaining systems that convert raw data into high-quality, consistent information for downstream use cases such as analytics and machine learning.
+- **Definition of Data Engineering**: According to [Fundamentals of Data Engineering](https://www.oreilly.com/library/view/fundamentals-of-data/9781098108298/), data engineering involves developing, implementing, 
+  and maintaining systems that convert raw data into high-quality, consistent information for 
+  downstream use cases such as analytics and machine learning.
 
-- **Data Engineering Life Cycle**: The life cycle includes stages like data generation, ingestion, transformation, storage, and serving. Storage plays a role in every stage, and end-use cases include analytics, machine learning, and reverse ETL.
+- **Data Engineering Life Cycle**: The life cycle includes stages like data generation, ingestion, transformation, 
+    storage, and serving. Storage plays a role in every stage, and end-use cases include analytics, 
+    machine learning, and reverse ETL.
 
-- **Data Pipeline**: The data pipeline is a collection of architectures, systems, and processes that move data from its generation to its end-use cases. As a data engineer, your job is to manage this pipeline.
+- **Data Pipeline**: The data pipeline is a collection of architectures, systems, and processes that move data 
+    from its generation to its end-use cases. As a data engineer, your job is to manage this pipeline.
 
-- **Undercurrents of Data Engineering**: Six key elements—security, data management, DataOps, data architecture, orchestration, and software engineering—span the entire data engineering life cycle and impact each stage.
+- **Undercurrents of Data Engineering**: Six key elements—security, data management, DataOps, data architecture,
+    orchestration, and software engineering—span the entire data engineering life cycle and impact each stage.
 
-- **Holistic Approach**: It's important to understand the entire data engineering life cycle and its undercurrents, focusing on how to deliver value for the organization, rather than jumping straight into tool implementation. 
+- **Holistic Approach**: It's important to understand the entire data engineering life cycle and its undercurrents, 
+    focusing on how to deliver value for the organization, rather than jumping straight into tool implementation. 
 
 ### The Data Engineer Among Other Stakeholders
 
 1. **Role of Data Engineers**
-   - Data engineers transform raw data into valuable insights and make it available for downstream use cases like analytics and machine learning.
+   - Data engineers transform raw data into valuable insights and make it available for 
+      downstream use cases like analytics and machine learning.
 
 2. **Understanding Downstream Needs**
-   - **Downstream Users**: Include analysts, data scientists, machine learning engineers, salespeople, product or marketing professionals, and executives.
-   - **Example**: For a business analyst needing SQL queries, understand their requirements for query frequency, data retrieval needs, and acceptable latency.
+   - **Downstream Users**: Include analysts, data scientists, machine learning engineers, salespeople, 
+        product or marketing professionals, and executives.
+   - **Example**: For a business analyst needing SQL queries, understand their requirements for 
+        query frequency, data retrieval needs, and acceptable latency.
 
 3. **Aligning with Downstream Stakeholders**
    - Discuss the frequency of data updates and necessary data details.
@@ -85,12 +118,14 @@ The course covers foundational principles of data engineering, including the sta
    - Ensure the data you provide aligns with the needs and objectives of downstream stakeholders.
 
 7. **Next Steps**
-   - Before diving into requirements gathering, consider the concept of business value as it relates to your role.
+   - Before diving into requirements gathering, consider the concept of 
+      business value as it relates to your role.
 
 ### System Requirements
 
 #### Understanding Stakeholder Needs
-- **Goal:** Deliver value by understanding and translating stakeholder needs into system requirements.
+- **Goal:** Deliver value by understanding and translating stakeholder 
+    needs into system requirements.
 - **Process:** Start with gathering requirements before writing code or setting up resources.
 
 #### Types of Requirements
@@ -98,20 +133,23 @@ The course covers foundational principles of data engineering, including the sta
    - Define high-level business goals (e.g., increasing revenue, growing the user base).
 
 2. **Stakeholder Requirements**
-   - Needs of individuals within the organization (e.g., tools needed to perform their jobs effectively).
+   - Needs of individuals within the organization 
+      (e.g., tools needed to perform their jobs effectively).
 
 3. **System Requirements**
    - **Functional Requirements (What):**
      - What the system needs to do (e.g., regular updates to databases, alerting for anomalies).
    - **Non-Functional Requirements (How):**
-     - How the system will perform these functions (e.g., technical specs for data ingestion, orchestration, storage).
+     - How the system will perform these functions 
+        (e.g., technical specs for data ingestion, orchestration, storage).
 
 #### Requirements Gathering Process
 1. **Start with Conversations**
    - Engage with stakeholders to understand their business goals and translate these into system requirements.
 
 2. **Consider All Aspects**
-   - Include high-level business and stakeholder requirements, data product features, technical specs, cost constraints, security, and regulatory considerations.
+   - Include high-level business and stakeholder requirements, data product features, technical specs, 
+      cost constraints, security, and regulatory considerations.
 
 3. **Tailor the Approach**
    - Adapt your requirements gathering approach based on stakeholders' technical knowledge and organizational roles.
@@ -119,7 +157,8 @@ The course covers foundational principles of data engineering, including the sta
 ### Requirements Gathering Conversation 
 #### Introduction
 - **Data Engineer:** New to the team, looking to understand how to support the data scientist.
-- **Data Scientist (Colleen):** Senior technical manager with experience in marketing technologies, data engineering, and analytics.
+- **Data Scientist (Colleen):** Senior technical manager with experience in marketing technologies, 
+    data engineering, and analytics.
 
 #### Current Challenges
 - **Data Delivery:**
@@ -139,7 +178,8 @@ The course covers foundational principles of data engineering, including the sta
 - **Real-Time Analysis:** Marketing team needs up-to-date metrics for product sales by region.
 - **Use Cases:**
   - **Dashboards:** Current dashboards show sales trends and metrics but are delayed.
-  - **Recommendation Engine:** Training a model for personalized product recommendations, but requires more data and a system to deploy the model.
+  - **Recommendation Engine:** Training a model for personalized product recommendations, 
+      but requires more data and a system to deploy the model.
 
 #### Key Points from Conversation
 - **Immediate Needs:**
@@ -148,15 +188,19 @@ The course covers foundational principles of data engineering, including the sta
 
 - **Marketing Goals:**
   - **Current Data Use:** Targeting ad campaigns based on up-to-date metrics.
-  - **Actionable Insights:** Need clarity on whether current means "real-time" or within a specific recent timeframe.
+  - **Actionable Insights:** Need clarity on whether current means "real-time" 
+      or within a specific recent timeframe.
 
 #### Next Steps
-- **Follow-Up:** Check in with the marketing team to clarify their needs regarding data timeliness and actions based on current data.
-- **Potential Solutions:** Focus on automating data ingestion and processing to reduce manual work and improve data availability.
+- **Follow-Up:** Check in with the marketing team to clarify their needs regarding data timeliness 
+    and actions based on current data.
+- **Potential Solutions:** Focus on automating data ingestion and processing to 
+    reduce manual work and improve data availability.
 
 #### Summary
 - **Goal:** Enhance the efficiency of data processing and reduce latency to meet real-time analytics needs.
-- **Outcome:** Streamlined data ingestion and automated processing will aid the data scientist in focusing more on analysis rather than data cleaning.
+- **Outcome:** Streamlined data ingestion and automated processing will aid 
+    the data scientist in focusing more on analysis rather than data cleaning.
 
 ### Translate Stakeholder Needs into Specific Requirements 
 
@@ -243,7 +287,8 @@ The course covers foundational principles of data engineering, including the sta
  
  ## Data Engineering on the Cloud 
 
-- **Overview**: The specialization focuses on data engineering, starting with high-level concepts and progressing to practical applications.
+- **Overview**: The specialization focuses on data engineering, starting with high-level
+    concepts and progressing to practical applications.
   
 - **Cloud vs. On-Premises**:
   - **Historical Context**: Data systems were once built and maintained in-house (on-premises). 
@@ -253,10 +298,12 @@ The course covers foundational principles of data engineering, including the sta
 - **Specialization Details**:
   - **Cloud Tools**: The course will cover AWS tools and technologies used by companies worldwide.
   - **Lab Exercises**: You’ll build data pipelines and architectures on AWS.
-  - **Learning Approach**: A "just-in-time" method, learning specific tools as needed, with no prior cloud computing knowledge required.
+  - **Learning Approach**: A "just-in-time" method, learning specific tools as needed, 
+      with no prior cloud computing knowledge required.
 
 - **Preparation**:
-  - **Familiarity with Cloud Basics**: Some background knowledge of cloud computing concepts and terminology will be helpful. 
+  - **Familiarity with Cloud Basics**: Some background knowledge of cloud 
+      computing concepts and terminology will be helpful. 
 
  ### Introduction to AWS Cloud
 
@@ -274,8 +321,10 @@ The course covers foundational principles of data engineering, including the sta
   - **Cost Efficiency**: Pay for what you use, similar to electricity billing.
 
 - **Infrastructure**:
-  - **AWS Regions**: Geographic areas with multiple data centers (e.g., US East Northern Virginia, Asia Pacific Mumbai).
-  - **Availability Zones (AZs)**: Data centers within a region, designed for high availability and fault tolerance.
+  - **AWS Regions**: Geographic areas with multiple data centers 
+      (e.g., US East Northern Virginia, Asia Pacific Mumbai).
+  - **Availability Zones (AZs)**: Data centers within a region, 
+      designed for high availability and fault tolerance.
 
 - **Global Network**:
   - Data centers and AZs are connected via AWS’s global network of fiber cables for low latency and reliability.
@@ -346,12 +395,14 @@ The course covers foundational principles of data engineering, including the sta
 #### 5. Security
 - **Shared Responsibility Model**:
   - AWS is responsible for the security **of** the cloud (physical infrastructure, hypervisor).
-  - You are responsible for the security **in** the cloud (guest operating system, software updates, networking, data encryption).
+  - You are responsible for the security **in** the cloud 
+      (guest operating system, software updates, networking, data encryption).
 
 #### Additional Notes
 - **AWS Global Infrastructure**:
   - Services are available in regions and availability zones.
-  - Regions are geographical areas, and each contains multiple availability zones for high availability and fault tolerance.
+  - Regions are geographical areas, and each contains multiple availability zones 
+      for high availability and fault tolerance.
  
 ### Amazon Elastic Compute Cloud (EC2) Overview
 
@@ -394,14 +445,16 @@ The course covers foundational principles of data engineering, including the sta
 #### What is an IP Address?
 - **IP Address**: A unique identifier for each device on a network.
   - **IPv4**: Most common format; a 32-bit number in the format `x.x.x.x` (e.g., `192.101.0.2`).
-  - **CIDR Notation**: Represents a range of IP addresses; e.g., `192.101.0.0/24` includes addresses from `192.101.0.0` to `192.101.0.255`.
+  - **CIDR Notation**: Represents a range of IP addresses; e.g., 
+      `192.101.0.0/24` includes addresses from `192.101.0.0` to `192.101.0.255`.
 
 #### What is a VPC (Virtual Private Cloud)?
 - **VPC**: An isolated private network within an AWS region.
   - **Purpose**: Protects and organizes your resources (e.g., EC2 instances).
   - **Features**: 
     - **IP Range**: Defined by CIDR block.
-    - **Isolation**: Resources within a VPC can communicate with each other but not with resources outside the VPC or the internet unless explicitly configured.
+    - **Isolation**: Resources within a VPC can communicate with each other but 
+        not with resources outside the VPC or the internet unless explicitly configured.
 
 #### What is a Subnet?
 - **Subnet**: A smaller network within a VPC.
@@ -418,16 +471,20 @@ The course covers foundational principles of data engineering, including the sta
 ### Security - AWS Shared Responsibility Model
 
 #### Overview
-When using AWS, the responsibility for security is divided between AWS and you, the customer. This division is known as the **Shared Responsibility Model**.
+When using AWS, the responsibility for security is divided between AWS and you, the customer. 
+This division is known as the **Shared Responsibility Model**.
 
 #### AWS Responsibilities: Security of the Cloud
 - **Physical Security**: AWS manages the security of physical facilities where hardware is housed.
-- **Infrastructure Security**: AWS protects the global infrastructure, including the cables connecting regions and the hardware and software running AWS services.
+- **Infrastructure Security**: AWS protects the global infrastructure, including the cables 
+    connecting regions and the hardware and software running AWS services.
 
 #### Customer Responsibilities: Security in the Cloud
 - **Data Protection**: You are responsible for securing your data at rest and in transit.
-- **Access Management**: You must manage access controls, determining who can access your data and resources and for how long.
-- **Service Configuration**: Depending on the AWS services used, additional configurations for security may be required.
+- **Access Management**: You must manage access controls, determining who can access your 
+    data and resources and for how long.
+- **Service Configuration**: Depending on the AWS services used, additional configurations 
+    for security may be required.
 
 #### Key Points
 - **Data Ownership**: You own your data and must ensure its security.
