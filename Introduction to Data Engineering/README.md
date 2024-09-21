@@ -29,5 +29,12 @@ these main learning objectives:
 
 - [Week 1](./Week%201): Overview of data engineering, life cycle, and understanding how to think like a data engineer   
 - [Week 2](./Week%202/): Deep dive into the stages of the data engineering life cycle, with hands-on AWS lab work at the end 
-- Week 3: Focus on principles of good data architecture 
-- Week 4: Design and build data architecture based on stakeholder needs 
+- [Week 3](./Week%203/): Focus on principles of good data architecture 
+- [Week 4](./Week%204/): Design and build data architecture based on stakeholder needs 
+
+### Skill Gained 
+- The principles of good data architecture 
+- Requirements Gathering 
+- AWS cloud fundamentals 
+- Thinking like a data engineer 
+- Translating requirements into tool and technology choices
