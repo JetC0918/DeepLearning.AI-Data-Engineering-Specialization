@@ -1,4 +1,4 @@
-## **[Course 1 - Introduction to Data Engineering](https://www.coursera.org/learn/intro-to-data-engineering/home)**
+## **[Course 1 - Introduction to Data Engineering](https://www.coursera.org/learn/intro-to-data-engineering)**
 
 This course consists of 4 weeks of content and covers 
 these main learning objectives:
